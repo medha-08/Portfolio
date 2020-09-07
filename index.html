@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        <title>Medha Portfolio Website</title>
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+</head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+</style>
+<body>
+        <header>
+		<a class="toggle-nav" href="#">&#9776;</a>
+		 <ul>
+		 <div class="dropdown"style="float:left;">
+  <button class="dropbtn">Menu</button>
+  <div class="dropdown-content">
+  <a href="#">Home</a>
+  <a href="What I do">Career</a>
+  <a href="Who I am">About Me</a>
+  <a href="Contact us">Contact</a>
+</div>
+</ul> 
+        </header>
+        
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Medha Murugan</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">B.Tech in Information Technology</p>
+            <img src="img/index1.jpeg"class="intro__img">
+        </section>
+        
+        
+        <!-- My services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>IEEE Activities</h3>
+                    	<p>Inspire and engage worldwide technical communities to: Foster dynamic interdisciplinary collaboration. Motivate participation and leadership. Nurture and promote leading-edge innovative ideas. Empower professionals with relevant knowledge and lifelong development. Provide value.</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>NSS Member</h3>
+                    	<p>My Regular Activities at a Glance *Free medical campus at various and needy villages *Dental camp, Health camp & Eye camp *Siddha, Ayurvedha and Homeopathy medical camps. *Personolity development programs. *NSS volunteers participation and performance in skit, dance and drama *Tree plantation and helping the people to do so frequently</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>Marketing Researcher</h3>
+                    	<p>TESCOM provides me the services that I need to start or take my business to heights, with Ultra managed leased line and ultra-managed broadband I can focus on your business, rest leave it on us.The company is now emerging as a major player in providing complete business solutions in field of IT, Telecommunications, Recruitment, Digital Marketing & Financial services, to major companies in and around.</p>
+                </div> <!-- / service -->
+            </div> <!-- / services -->
+            
+            
+        </section>
+        
+        
+        <!-- About me -->
+        <section class="about-me" id="about">
+           <h2 class="section__title section__title--about">Who I am</h2>
+           <p class="section__subtitle section__subtitle--about">Developer And Social Reformer</p>
+           
+           <div class="about-me__body">
+               <p>To pursue a creative and challenging career by being associated with progressive organisation that give me opportunity for self-improvement, learning about new things and applying my knowledge and work dynamically towards the growth of the organisation.</p>
+           </div>
+           <img src="img/index.jpeg"class="about-me__img">
+        </section>
+        <!-- Footer -->
+         <div class="footer">
+        <footer>
+        <center><b>Contact me</b></center>
+            <center><a href="https://revathi.medha@gmail.com" class="footer__link">revathi.medha@gmail.com</a></center>
+            <ul class="social-list">
+                <li class="social-list__item">
+                	<a class="social-list__link" href="https://www.instagram.com/___.medha___/">
+                	<i class="fab fa-instagram"></i>
+                	</a>
+                </li>
+                <li class="social-list__item">
+                	<a class="social-list__link" href="https://github.com/medha-08">
+                	<i class="fab fa-github"></i>
+                	</a>
+                </li>
+                <li class="social-list__item">
+                	<a class="social-list__link" href="https://web.telegram.org/#/im">
+                	<i class="fab fa-telegram"></i>
+                	</a>
+                </li>
+                <li class="social-list__item">
+                	<a class="social-list__link" href="https://www.linkedin.com/in/medha08">
+                	<i class="fab fa-linkedin"></i>
+                </a>
+                </li>
+            </ul>
+        </footer>
+        
+    </body>
+</html>
